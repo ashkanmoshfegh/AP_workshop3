@@ -12,4 +12,8 @@ public class phonenumber {
             if (number == null) number = "-";
             return "(" + countrycode + ") " + number;
         }
+
+    public String getNumber() {
+        return number;
+    }
 }
