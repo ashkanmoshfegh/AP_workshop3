@@ -1,7 +1,7 @@
 public class phonebook {
     private contact[] contacts;
     private int sizeContacts;
-    public PhoneBook(int size) {
+    public phonebook(int size) {
         contacts = new contact[size];
         sizeContacts = 0;
     }
