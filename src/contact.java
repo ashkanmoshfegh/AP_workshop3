@@ -4,6 +4,7 @@ public class contact {
     private String firstname=new String();
     private String lastname=new String();
     private String phonenummber=new String();
+    private address address;
 
     public void setEmail(String email) {
         this.email = email;
@@ -21,7 +22,7 @@ public class contact {
         this.lastname = lastname;
     }
 
-    public void setPhonenummber(String phonenummber) {
+    public void setphonenummber(String phonenummber) {
         this.phonenummber = phonenummber;
     }
 
@@ -46,7 +47,15 @@ public class contact {
         return lastname;
     }
 
-    public String getPhonenummber() {
+    public String getphonenummber() {
         return phonenummber;
+    }
+
+    public void setAddress(address address) {
+        this.address = address;
+    }
+
+    public address getAddress() {
+        return address;
     }
 }
