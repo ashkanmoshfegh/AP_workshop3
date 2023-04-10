@@ -16,10 +16,4 @@ public class  address
     public void setCity(String city) {
     this.city = city;
 }
-
-    public String toString() {
-    if (zipCode == null) zipCode = "-";
-    if (country == null) country = "-";
-    if (city == null) city = "-";
-    return zipCode + " - " + country + " - " + city;
-}}
+}
